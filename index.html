@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+
+        <head>
+
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Mr. Mathematics</title>
+            <link rel="stylesheet" href="main.css">
+
+        </head>
+
+        <body>
+            
+            <section class="banner">
+
+                <div class="logo">
+
+                    <h1><snap id="mr">Mr.</snap> <snap id="math">Mathematics</snap></h1>
+
+                </div>
+
+                <hr color="darkred" size="1px">
+
+                <h3> ------ Mathematics gives us hope that every problem has a solution ------ </h3>
+
+                <h2>" The only way to learn mathematics is to do mathematics. " ~ Paul Halmos</h2>
+
+                <div class="row">
+
+                    <div class="col">
+
+                        <a href="#addition" class="button">&nbsp;&nbsp; Addition &nbsp;&nbsp;</a>
+
+                    </div>
+
+                    <div class="col">
+
+                        <a href="#substraction" class="button">Substraction</a>
+
+                    </div>
+
+                    <div class="col">
+
+                        <a href="#production" class="button">Production</a>
+
+                    </div>
+
+                    <div class="col">
+
+                        <a href="#division" class="button">&nbsp;&nbsp;Division&nbsp;&nbsp;</a>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col">
+
+                        <a href="#" class="button">&nbsp;&nbsp; Modulus &nbsp;&nbsp;</a>
+
+                    </div>
+
+                    <div class="col">
+
+                        <a href="#" class="button">&nbsp;&nbsp;Exponent&nbsp;&nbsp;</a>
+
+                    </div>
+
+                    <div class="col">
+
+                        <a href="#" class="button">&nbsp;Logarithm&nbsp;</a>
+
+                    </div>
+
+                    <div class="col">
+
+                        <a href="#" class="button">&nbsp;&nbsp;Calculus&nbsp;&nbsp;</a>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <hr color="darkred" size="5px">
+
+            <section class="addition" id="addition">
+                
+                <h1>Addition</h1>
+
+                <div class="add-row">
+
+                    <div class="add-col" id="add-col-1">
+
+                        <h1 id="count-el">0</h1>
+                        <button id="increment1" onclick="increment1()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement1" onclick="decrement1()">-</button>
+
+                    </div>
+
+                    <div class="add-col">
+
+                        <h1>+</h1>
+
+                    </div>
+
+                    <div class="add-col" id="add-col-2">
+
+                        <h1 id="count-el1">0</h1>
+                        <button id="increment2" onclick="increment2()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement2" onclick="decrement2()">-</button>
+
+                    </div>
+
+                    <div class="add-col">
+
+                        <h1>=</h1>
+
+                    </div>
+
+                    <div class="add-col" id="add-col-4">
+
+                        <h1 id="sum-el">0</h1>
+                        <button id="sum" onclick="sum()">Result</button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <hr color="darkred" size="5px">
+            
+            <section class="substraction" id="substraction">
+
+                <h1>Substraction</h1>
+
+                <div class="sub-row">
+
+                    <div class="sub-col">
+
+                        <h1 id="count-el2">0</h1>
+                        <button id="increment3" onclick="increment3()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement3" onclick="decrement3()">-</button>
+
+                    </div>
+
+                    <div class="add-col">
+
+                        <h1>-</h1>
+
+                    </div>
+
+                    <div class="sub-col">
+
+                        <h1 id="count-el3">0</h1>
+                        <button id="increment4" onclick="increment4()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement4" onclick="decrement4()">-</button>
+
+                    </div>
+
+                    <div class="sub-col">
+
+                        <h1>=</h1>
+
+                    </div>
+
+                    <div class="sub-col">
+
+                        <h1 id="sub-el">0</h1>
+                        <button id="sub" onclick="sub()">Result</button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <hr color="darkred" size="5px">
+
+            <section class="production" id="production">
+
+                <h1>Production</h1>
+
+                <div class="prod-row">
+
+                    <div class="prod-col">
+
+                        <h1 id="count-el4">0</h1>
+                        <button id="increment5" onclick="increment5()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement5" onclick="decrement5()">-</button>
+
+                    </div>
+
+                    <div class="add-col">
+
+                        <h1>*</h1>
+
+                    </div>
+
+                    <div class="prod-col">
+
+                        <h1 id="count-el5">0</h1>
+                        <button id="increment6" onclick="increment6()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement6" onclick="decrement6()">-</button>
+
+                    </div>
+
+                    <div class="prod-col">
+
+                        <h1>=</h1>
+
+                    </div>
+
+                    <div class="prod-col">
+
+                        <h1 id="prod-el">0</h1>
+                        <button id="prod" onclick="prod()">Result</button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <hr color="darkred" size="5px">
+
+            <section class="division" id="division">
+
+                <h1>Division</h1>
+
+                <div class="div-row">
+
+                    <div class="div-col">
+
+                        <h1 id="count-el6">0</h1>
+                        <button id="increment7" onclick="increment7()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement7" onclick="decrement7()">-</button>
+
+                    </div>
+
+                    <div class="div-col">
+
+                        <h1>/</h1>
+
+                    </div>
+
+                    <div class="div-col">
+
+                        <h1 id="count-el7">0</h1>
+                        <button id="increment8" onclick="increment8()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement8" onclick="decrement8()">-</button>
+
+                    </div>
+
+                    <div class="div-col">
+
+                        <h1>=</h1>
+
+                    </div>
+
+                    <div class="div-col">
+
+                        <h1 id="div-el">0</h1>
+                        <button id="div" onclick="div()">Result</button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <hr color="darkred" size="5px">
+
+            <!-- JavaScript -->
+
+            <!-- addition -->
+
+            <script>
+                
+                let countel = document.getElementById("count-el");
+                let countel1 = document.getElementById("count-el1");
+                let sumel = document.getElementById("sum-el");
+                
+                let countel2 = document.getElementById("count-el2");
+                let countel3 = document.getElementById("count-el3");
+                let subel = document.getElementById("sub-el");
+
+                let countel4 = document.getElementById("count-el4");
+                let countel5 = document.getElementById("count-el5");
+                let prodel = document.getElementById("prod-el");
+
+                let countel6 = document.getElementById("count-el6");
+                let countel7 = document.getElementById("count-el7");
+                let divel = document.getElementById("div-el");
+
+                let count1 = 0;
+                let count2 = 0;
+                let sumC = 0;
+
+                let count3 = 0;
+                let count4 = 0;
+                let subC = 0;
+
+                let count5 = 0;
+                let count6 = 0;
+                let prodC = 0;
+                
+                let count7 = 0;
+                let count8 = 0;
+                let divC = 0;
+
+                function increment1(){
+
+                    count1++;
+                    countel.innerText = count1;
+
+                }
+
+                function decrement1(){
+
+                    count1--;
+                    countel.innerText = count1;
+
+                }
+
+                function increment2() {
+                    
+                    count2++;
+                    countel1.innerText = count2;
+
+                }
+
+                function decrement2() {
+
+                    count2--;
+                    countel1.innerText = count2;
+
+                }
+
+                function sum() {
+                    sumC = count1 + count2;
+                    sumel.innerText = sumC;
+                }
+
+                function increment3() {
+
+                    count3++;
+                    countel2.innerText = count3;
+
+                }
+
+                function decrement3() {
+
+                    count3--;
+                    countel2.innerText = count3;
+
+                }
+
+                function increment4() {
+
+                    count4++;
+                    countel3.innerText = count4;
+
+                }
+
+                function decrement4() {
+
+                    count4--;
+                    countel3.innerText = count4;
+
+                }
+
+                function sub() {
+                    
+                    subC = count3 - count4;
+                    subel.innerText = subC;
+
+                }
+
+                function increment5() {
+
+                    count5++;
+                    countel4.innerText = count5;
+
+                }
+
+                function decrement5() {
+
+                    count5--;
+                    countel4.innerText = count5;
+
+                }
+
+                function increment6() {
+
+                    count6++;
+                    countel5.innerText = count6;
+
+                }
+
+                function decrement6() {
+
+                    count6--;
+                    countel5.innerText = count6;
+
+                }
+
+                function prod() {
+
+                    prodC = count5 * count6;
+                    prodel.innerText = prodC;
+
+                }
+
+                function increment7() {
+
+                    count7++;
+                    countel6.innerText = count7;
+
+                }
+
+                function decrement7() {
+
+                    count7--;
+                    countel6.innerText = count7;
+
+                }
+
+                function increment8() {
+
+                    count8++;
+                    countel7.innerText = count8;
+
+                }
+
+                function decrement8() {
+
+                    count8--;
+                    countel7.innerText = count8;
+
+                }
+
+                function div() {
+
+                    divC = count7 / count8;
+                    divel.innerText = divC;
+
+                }
+
+            </script>
+
+        </body>
+
+    </html>
