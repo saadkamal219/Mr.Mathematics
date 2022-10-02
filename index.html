@@ -14,7 +14,7 @@
 
         <body>
             
-            <section class="banner">
+            <section class="banner" id="banner">
 
                 <div class="logo">
 
@@ -32,7 +32,7 @@
 
                     <div class="col">
 
-                        <a href="#addition" class="button">&nbsp;&nbsp; Addition &nbsp;&nbsp;</a>
+                        <a href="#addition" class="button">Addition</a>
 
                     </div>
 
@@ -60,25 +60,53 @@
 
                     <div class="col">
 
-                        <a href="#" class="button">&nbsp;&nbsp; Modulus &nbsp;&nbsp;</a>
+                        <a href="#" class="button">Modulus</a>
 
                     </div>
 
                     <div class="col">
 
-                        <a href="#" class="button">&nbsp;&nbsp;Exponent&nbsp;&nbsp;</a>
+                        <a href="#exponent" class="button">&nbsp;&nbsp;Exponent&nbsp;&nbsp;</a>
 
                     </div>
 
                     <div class="col">
 
-                        <a href="#" class="button">&nbsp;Logarithm&nbsp;</a>
+                        <a href="#logarithm" class="button">&nbsp;Logarithm&nbsp;</a>
 
                     </div>
 
                     <div class="col">
 
-                        <a href="#" class="button">&nbsp;&nbsp;Calculus&nbsp;&nbsp;</a>
+                        <a href="#differentiation" class="button">Differentiation</a>
+
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col">
+
+                        <a href="#root" class="button">Root</a>
+
+                    </div>
+
+                    <div class="col">
+
+                        <a href="#exponent" class="button">&nbsp;&nbsp;Sequence&nbsp;&nbsp;</a>
+
+                    </div>
+
+                    <div class="col">
+
+                        <a href="#logarithm" class="button">&nbsp;Trigonometry&nbsp;</a>
+
+                    </div>
+
+                    <div class="col">
+
+                        <a href="#calculus" class="button">Integration</a>
 
                     </div>
 
@@ -130,6 +158,16 @@
                     </div>
 
                 </div>
+
+                <!-- <div class="add-row">
+
+                    <div class="add-col" id="return-top">
+
+                        <a href="#banner">Top</a>
+
+                    </div>
+
+                </div> -->
 
             </section>
 
@@ -276,6 +314,361 @@
 
             <hr color="darkred" size="5px">
 
+            <section class="modulus" id="modulus">
+
+                <h1>Modulus</h1>
+
+                <div class="mod-row">
+
+                    <div class="mod-col">
+
+                        <h1 id="count-el8">0</h1>
+                        <button id="increment9" onclick="increment9()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement9" onclick="decrement9()">-</button>
+
+                    </div>
+
+                    <div class="mod-col">
+
+                        <h1>%</h1>
+
+                    </div>
+
+                    <div class="mod-col">
+
+                        <h1 id="count-el9">0</h1>
+                        <button id="increment10" onclick="increment10()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement10" onclick="decrement10()">-</button>
+
+                    </div>
+
+                    <div class="mod-col">
+
+                        <h1>=</h1>
+
+                    </div>
+
+                    <div class="mod-col">
+
+                        <h1 id="mod-el">0</h1>
+                        <button id="mod" onclick="mod()">Result</button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <hr color="darkred" size="5px">
+
+            <section class="exponent" id="exponent">
+
+                <h1>Exponent</h1>
+
+                <div class="exp-row">
+
+                    <div class="exp-col">
+
+                        <h1 id="count-el10">0</h1>
+                        <button id="increment11" onclick="increment11()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement11" onclick="decrement11()">-</button>
+                        <h3>Base</h3>
+
+                    </div>
+
+                    <div class="exp-col">
+
+                        <h1>^</h1>
+
+                    </div>
+
+                    <div class="exp-col">
+
+                        <h1 id="count-el11">0</h1>
+                        <button id="increment12" onclick="increment12()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement12" onclick="decrement12()">-</button>
+                        <h3>Exponent</h3>
+
+                    </div>
+
+                    <div class="exp-col">
+
+                        <h1>=</h1>
+
+                    </div>
+
+                    <div class="exp-col">
+
+                        <h1 id="exp-el">0</h1>
+                        <button id="exp" onclick="exp()">Result</button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <hr color="darkred" size="5px">
+
+            <section class="logarithm" id="logarithm">
+
+                <h1>Logarithm</h1>
+
+                <!-- <h3>[Base 10]</h3> -->
+
+                <div class="log-row">
+
+                    <div class="log-col">
+
+                        <h1 id="count-el12">0</h1>
+                        <button id="increment13" onclick="increment13()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement13" onclick="decrement13()">-</button>
+                        <h3>Exponent</h3>
+
+                    </div>
+
+                    <div class="log-col">
+
+                        <h1>log 10</h1>
+
+                    </div>
+
+                    <div class="log-col">
+
+                        <h1 id="count-el13">0</h1>
+                        <button id="increment14" onclick="increment14()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement14" onclick="decrement14()">-</button>
+                        <h3>Value</h3>
+
+                    </div>
+
+                    <div class="log-col">
+
+                        <h1>=</h1>
+
+                    </div>
+
+                    <div class="log-col">
+
+                        <h1 id="log-el">0</h1>
+                        <button id="loga" onclick="loga()">Result</button>
+
+                    </div>
+
+                </div>
+
+                <!-- <hr color="darkred" size="5px"> -->
+
+                <div class="log2-row">
+
+                    <div class="log2-col">
+
+                        <h1 id="count-el14">0</h1>
+                        <button id="increment15" onclick="increment15()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement15" onclick="decrement15()">-</button>
+                        <h3>Exponent</h3>
+
+                    </div>
+
+                    <div class="log2-col">
+
+                        <h1>log 2</h1>
+
+                    </div>
+
+                    <div class="log2-col">
+
+                        <h1 id="count-el15">0</h1>
+                        <button id="increment16" onclick="increment16()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement16" onclick="decrement16()">-</button>
+                        <h3>Value</h3>
+
+                    </div>
+
+                    <div class="log2-col">
+
+                        <h1>=</h1>
+
+                    </div>
+
+                    <div class="log2-col">
+
+                        <h1 id="log2-el">0</h1>
+                        <button id="loga2" onclick="loga2()">Result</button>
+
+                    </div>
+
+                </div>
+
+                <div class="ln-row">
+
+                    <div class="ln-col">
+
+                        <h1 id="count-el16">0</h1>
+                        <button id="increment17" onclick="increment17()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement17" onclick="decrement17()">-</button>
+                        <h3>Exponent</h3>
+
+                    </div>
+
+                    <div class="ln-col">
+
+                        <h1>ln</h1>
+
+                    </div>
+
+                    <div class="ln-col">
+
+                        <h1 id="count-el17">0</h1>
+                        <button id="increment18" onclick="increment18()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement18" onclick="decrement18()">-</button>
+                        <h3>Value</h3>
+
+                    </div>
+
+                    <div class="ln-col">
+
+                        <h1>=</h1>
+
+                    </div>
+
+                    <div class="ln-col">
+
+                        <h1 id="ln-el">0</h1>
+                        <button id="ln" onclick="ln()">Result</button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <hr color="darkred" size="5px">
+
+            <section class="differentiation" id="differentiation">
+                
+                <h1>Differetiation</h1>
+
+                <h1>Opps!! Working on it.....</h1>
+
+                <h2>Meanwhile take a tour from the options bellow..</h2>
+
+                <div class="diff-row">
+                    
+                    <div class="diff-col">
+                        
+                        <a href="logic-gates.html" class="button" target="_blank">Logic Gates</a>
+
+                    </div>
+
+                    <div class="diff-col">
+                        
+                        <a href="bcd-adder.html" class="button">BCD Adder</a>
+
+                    </div>
+
+                    <div class="diff-col">
+                        
+                        <a href="adder.html" class="button">Adder</a>
+
+                    </div>
+
+                    <div class="diff-col">
+                        
+                        <a href="substractor.html" class="button">Substractor</a>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <hr color="darkred" size="5px">
+
+            <section class="root" id="root">
+
+                <h1>Root</h1>
+
+                <div class="sr-row">
+
+                    <div class="sr-col">
+
+                        <h1>Square Root of</h1>
+
+                    </div>
+
+                    <!-- <div class="log2-col">
+
+                        <h1>log 2</h1>
+
+                    </div> -->
+
+                    <div class="sr-col">
+
+                        <h1 id="count-el18">0</h1>
+                        <button id="increment19" onclick="increment19()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement19" onclick="decrement19()">-</button>
+                        <h3>Value</h3>
+
+                    </div>
+
+                    <div class="sr-col">
+
+                        <h1>=</h1>
+
+                    </div>
+
+                    <div class="sr-col">
+
+                        <h1 id="sr-el">0</h1>
+                        <button id="sr" onclick="sr()">Result</button>
+
+                    </div>
+
+                </div>
+
+                <div class="cr-row">
+
+                    <div class="cr-col">
+
+                        <h1>Cube Root of</h1>
+
+                    </div>
+
+                    <!-- <div class="log2-col">
+
+                        <h1>log 2</h1>
+
+                    </div> -->
+
+                    <div class="cr-col">
+
+                        <h1 id="count-el19">0</h1>
+                        <button id="increment20" onclick="increment20()">+</button><snap>&nbsp;&nbsp;</snap>
+                        <button id="decrement20" onclick="decrement20()">-</button>
+                        <h3>Value</h3>
+
+                    </div>
+
+                    <div class="cr-col">
+
+                        <h1>=</h1>
+
+                    </div>
+
+                    <div class="cr-col">
+
+                        <h1 id="cr-el">0</h1>
+                        <button id="cr" onclick="cr()">Result</button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <hr color="darkred" size="5px">
+
             <!-- JavaScript -->
 
             <!-- addition -->
@@ -298,6 +691,28 @@
                 let countel7 = document.getElementById("count-el7");
                 let divel = document.getElementById("div-el");
 
+                let countel8 = document.getElementById("count-el8");
+                let countel9 = document.getElementById("count-el9");
+                let mod_el = document.getElementById("mod-el");
+
+                let countel10 = document.getElementById("count-el10");
+                let countel11 = document.getElementById("count-el11");
+                let expel = document.getElementById("exp-el");
+
+                let countel12 = document.getElementById("count-el12");
+                let countel13 = document.getElementById("count-el13");
+                let logel = document.getElementById("log-el");
+
+                let countel14 = document.getElementById("count-el14");
+                let countel15 = document.getElementById("count-el15");
+                let log2el = document.getElementById("log2-el");
+
+                let countel18 = document.getElementById("count-el18");
+                let srel = document.getElementById("sr-el");
+
+                let countel19 = document.getElementById("count-el19");
+                let crel = document.getElementById("cr-el");
+
                 let count1 = 0;
                 let count2 = 0;
                 let sumC = 0;
@@ -313,6 +728,28 @@
                 let count7 = 0;
                 let count8 = 0;
                 let divC = 0;
+
+                let count9 = 0;
+                let count10 = 0;
+                let moduC = 0;
+
+                let count11 = 0;
+                let count12 = 0;
+                let expC = 0;
+
+                let count13 = 0;
+                let count14 = 0;
+                let logaC = 0;
+
+                let count15 = 0;
+                let count16 = 0;
+                let loga2C = 0;
+
+                let count17 = 0;
+                let sroot = 0;
+
+                let count18 = 0;
+                let croot = 0;
 
                 function increment1(){
 
@@ -449,6 +886,188 @@
 
                     divC = count7 / count8;
                     divel.innerText = divC;
+
+                }
+
+                function increment9() {
+                    
+                    count9++;
+                    countel8.innerText = count9;
+
+                }
+
+                function decrement9() {
+                    
+                    count9--;
+                    countel8.innerText = count9;
+
+                }
+
+                function increment10() {
+
+                    count10++;
+                    countel9.innerText = count10;
+
+                }
+
+                function decrement10() {
+
+                    count10--;
+                    countel9.innerText = count10;
+
+                }
+
+                function mod() {
+
+                    moduC = count9 % count10;
+                    mod_el.innerText = moduC;
+
+                }
+
+                function increment11() {
+
+                    count11++;
+                    countel10.innerText = count11;
+
+                }
+
+                function decrement11() {
+
+                    count11--;
+                    countel10.innerText = count11;
+
+                }
+
+                function increment12() {
+
+                    count12++;
+                    countel11.innerText = count12;
+
+                }
+
+                function decrement12() {
+
+                    count12--;
+                    countel11.innerText = count12;
+
+                }
+
+                function exp() {
+
+                    expC = Math.pow(count11, count12);
+                    expel.innerText = expC;
+
+                }
+
+                function increment13() {
+
+                    count13++;
+                    countel12.innerText = count13;
+
+                }
+
+                function decrement13() {
+
+                    count13--;
+                    countel12.innerText = count13;
+
+                }
+
+                function increment14() {
+
+                    count14++;
+                    countel13.innerText = count14;
+
+                }
+
+                function decrement14() {
+
+                    count14--;
+                    countel13.innerText = count14;
+
+                }
+
+                function loga() {
+
+                    logaC = count13 * Math.log10(count14);
+                    logel.innerText = logaC;
+
+                }
+
+                function increment15() {
+
+                    count15++;
+                    countel14.innerText = count15;
+
+                }
+
+                function decrement15() {
+
+                    count15--;
+                    countel14.innerText = count15;
+
+                }
+
+                function increment16() {
+
+                    count16++;
+                    countel15.innerText = count16;
+
+                }
+
+                function decrement16() {
+
+                    count16--;
+                    countel15.innerText = count16;
+
+                }
+
+                function loga2() {
+
+                    loga2C = count15 * Math.log2(count16);
+                    log2el.innerText = loga2C;
+
+                }
+
+                function increment19() {
+
+                    count17++;
+                    countel18.innerText = count17;
+
+                }
+
+                function decrement19() {
+
+                    count17--;
+                    countel18.innerText = count17;
+
+                }
+
+                function sr() {
+
+                    sroot = Math.sqrt(count17);
+                    srel.innerText = sroot;
+
+                }
+
+                function increment20() {
+
+                    count18++;
+                    countel19.innerText = count18;
+
+                }
+
+                function decrement20() {
+
+                    count18--;
+                    countel19.innerText = count18;
+
+                }
+
+                function cr() {
+                    
+                    croot = Math.cbrt(count18);
+                    crel.innerText = croot;
 
                 }
 

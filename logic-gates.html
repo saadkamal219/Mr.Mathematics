@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logic Gates</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <h1 id="header">Logic Gates</h1>
+
+    <p class="description1">A logic gate is an idealized or physical device implementing a Boolean function, a logical operation performed on one or more binary inputs that produces a single binary output. Actually, A logic gate is a device that acts as a building block for digital circuits. They perform basic logical functions that are fundamental to digital circuits. Most electronic devices we use today will have some form of logic gates in them.</p>
+
+    <h2 id="header2"><strong>Types of logic gate: </strong></h2>
+
+    <p class="description1">There are three types of gates: universal gates, primary gates and secondary gates.</p>
+
+    <section class="list">
+        
+        <div class="logic-row">
+
+            <div class="logic-col">
+
+                <h1>Universal Gates</h1>
+
+                <div class="list-menu">
+                    
+                    <ul>
+                    
+                        <li>NAND Gate</li>
+                        <li>NOR Gate</li>
+    
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="logic-col">
+
+                <h1>Primary Gates</h1>
+
+                <div class="list-menu">
+                    
+                    <ul>
+                    
+                        <li>AND Gate</li>
+                        <li>OR Gate</li>
+                        <li>NOT Gate</li>
+    
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="logic-col">
+
+                <h1>Secondary Gates</h1>
+
+                <div class="list-menu">
+                    
+                    <ul>
+                    
+                        <li>NAND Gate</li>
+                        <li>NOR Gate</li>
+                        <li>X-OR Gate</li>
+                        <li>X-NOR Gate</li>
+    
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <p id="description2">A universal gate is a gate that can implement any Boolean function without the need to use any other gate type. Secondary gates can be derived from AND, OR, and NOT gates. But NAND and NOR gates are being classified as universal logic gates also.</p>
+
+    <h2 id="GD">Gates Description: </h2>
+
+    <div class="and">
+
+        <h3 id="and-header">AND Gate: </h3>
+        <p id="and-des">An AND gate is a logic gate having two or more inputs and a single output. An AND gate operates on logical multiplication rules. In this gate, if either <br> of the inputs is low (0), then the output is also low. If all of the inputs are high (1), then the output will also be high.
+        </p>
+
+        <img src="and-gate.png" alt="AND Gate" class="gate-img">
+
+    </div>
+
+    <hr>
+
+    <div class="or">
+
+        <h3 id="or-header">OR Gate: </h3>
+        <p id="or-des">An OR gate is a logic gate having two or more inputs and a single output. An OR gate operates on logical addition rules. In this gate, if either of the inputs is low (0) or both are high (1),  then the output is high. If all of the inputs are low (0), then the output will also be low.
+        </p>
+
+        <img src="or-gate.png" alt="OR Gate" class="gate-img">
+
+    </div>
+
+    <hr>
+
+    <div class="not">
+
+        <h3 id="not-header">NOT Gate: </h3>
+        <p id="not-des">A NOT gate is a logic gate having single input and single output. A NOT gate operates on logical negation on its input. The NOT gate is often called an inverter. If the input is true, then the output will be false. Similarly, a false input results in a true output.
+        </p>
+
+        <img src="not-gate.png" alt="NOT Gate" class="gate-img">
+
+    </div>
+
+    <hr>
+
+    <div class="nand">
+
+        <h3 id="nand-header">NAND Gate: </h3>
+        <p id="nand-des">A NAND gate is equivalent to an inverted-input OR gate. It is a logic gate which produces an output which is false only if all its inputs are true. NAND is called a universal gate because all three primary logic gates can be implemented NAND gate.
+        </p>
+
+        <img src="nand-gate.png" alt="NAND Gate" class="gate-img">
+
+        <h3 id="nand-sub-header">Implementation of AND, OR and NOT Gates by Universal NAND Gate</h3>
+
+        <img src="imple-nand.png" alt="NAND Implementation" class="gate-imple-img">
+
+    </div>
+
+    <hr>
+
+    <div class="nor">
+
+        <h3 id="nor-header">NOR Gate: </h3>
+        <p id="nor-des">A NAND gate is equivalent to an inverted-input OR gate. It is a logic gate which produces an output which is false only if all its inputs are true. NAND is called a universal gate because all three primary logic gates can be implemented NAND gate.
+        </p>
+
+        <img src="nor-gate.png" alt="NOR Gate" class="gate-img">
+
+        <h3 id="nor-sub-header">Implementation of AND, OR and NOT Gates by Universal NOR Gate</h3>
+
+        <img src="imple-nor.png" alt="NOR Implementation" class="gate-imple-img">
+
+    </div>
+
+    <hr>
+
+    <div class="xor">
+
+        <h3 id="xor-header">X-OR Gate: </h3>
+        <p id="xor-des">The X-OR gate is a two-input digital circuit that outputs a logical “1” if the two input values differ. It means that, the X-OR gate gives an high (1) output only if its two inputs are dissimilar, namely if one of them is high (1) and the other is low (0). XOR gate is used extensively in error detection circuits, computational logic comparators, and arithmetic logic circuits.
+        </p>
+
+        <img src="xor-gate.png" alt="X-OR Gate" class="gate-img">
+
+    </div>
+
+    <hr>
+
+    <div class="xnor">
+
+        <h3 id="xnor-header">X-NOR Gate: </h3>
+        <p id="xnor-des">The XNOR gate is a combination XOR gate followed by an inverter. It means that, the X-NOR gate gives an high (1) output only if its two inputs are same, namely if both of them is high (1) or both of them are low (0). The XNOR logic gates are used in error detecting circuits which are to detect Odd parity or even parity bits in digital data transmission circuits. 
+        </p>
+
+        <img src="xnor-gate.png" alt="X-NOR Gate" class="gate-img">
+
+    </div>
+
+    <div class="button-top">
+
+        <a href="index.html" class="button">Back to Main Page</a>
+
+    </div>
+
+    <hr size="10px" color="black">
+
+</body>
+</html>
